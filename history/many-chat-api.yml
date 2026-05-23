@@ -1,7 +1,7 @@
-url: https://api.manychat.com/healthcheck
+url: https://manychat.com
 status: down
-code: 404
-responseTime: 731
-lastUpdated: 2026-05-23T02:07:16.097Z
+code: 403
+responseTime: 17
+lastUpdated: 2026-05-23T02:10:39.262Z
 startTime: 2026-05-23T02:07:02.166Z
 generator: Upptime <https://github.com/upptime/upptime>
