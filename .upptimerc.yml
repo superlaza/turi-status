@@ -1,31 +1,80 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: superlaza
+repo: turi-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  # === Our infrastructure ===
+  - name: turi API (api.turi.chat)
+    url: https://api.turi.chat/health
+    icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/activity.svg
+    tags: turi
 
+  - name: turi Web (operator UI, Railway)
+    url: https://chatbot-web-production-f931.up.railway.app/sign-in
+    icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/monitor.svg
+    tags: turi
+
+  - name: Render standby (api)
+    url: https://fsa-chatbot-sf68.onrender.com/health
+    icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/shield.svg
+    tags: turi
+
+  # === External providers we depend on ===
+  - name: ManyChat API
+    url: https://api.manychat.com/healthcheck
+    icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/message-square.svg
+    tags: provider
+    # ManyChat doesn't expose a public health endpoint; we probe their API gateway.
+    # A 200/401/403 (any non-5xx) means the API is up.
+    statusCodes: [200, 401, 403]
+
+  - name: Gemini API
+    url: https://generativelanguage.googleapis.com/v1beta/models
+    icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/cpu.svg
+    tags: provider
+    statusCodes: [200, 401, 403]
+
+  - name: Calendly API
+    url: https://api.calendly.com/users/me
+    icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/calendar.svg
+    tags: provider
+    statusCodes: [200, 401, 403]
+
+  - name: Clerk API (auth)
+    url: https://api.clerk.com/v1/health
+    icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/lock.svg
+    tags: provider
+    statusCodes: [200, 401, 403, 404]
+
+  - name: Cloudflare (DNS + edge)
+    url: https://www.cloudflare.com/cdn-cgi/trace
+    icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/cloud.svg
+    tags: provider
+
+# Check every 5 minutes by default (GitHub Actions cron min granularity is 5min anyway)
+delay: 5000
+
+# Group displays on the status page
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # Default URL is superlaza.github.io/turi-status — leave commented unless we set up status.turi.chat
+  # cname: status.turi.chat
+  baseUrl: /turi-status
+  logoUrl: https://raw.githubusercontent.com/feathericons/feather/master/icons/activity.svg
+  name: turi status
+  introTitle: "**turi** infrastructure status"
+  introMessage: Live health of turi services and our upstream providers. Updates every 5 minutes via GitHub Actions. Powered by [Upptime](https://upptime.js.org).
   navbar:
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/superlaza/turi-status
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Notifications — Discord webhook is wired via NOTIFICATION_DISCORD_WEBHOOK_URL secret.
+# upptime auto-posts on status change (up → down, down → up) when this secret exists.
+# Comment block below is reference for additional channels if we add them later:
+#   NOTIFICATION_SLACK_WEBHOOK_URL — Slack
+#   NOTIFICATION_TELEGRAM_BOT_TOKEN + NOTIFICATION_TELEGRAM_CHAT_ID — Telegram
+#   NOTIFICATION_EMAIL — SMTP
+
+# Auto-create GitHub Issues on downtime (helpful audit trail; closes when service recovers)
+assignees:
+  - superlaza
