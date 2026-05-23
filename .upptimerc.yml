@@ -3,20 +3,23 @@ repo: turi-status
 
 sites:
   # === Our infrastructure ===
-  - name: turi API (api.turi.chat)
-    url: https://api.turi.chat/health
-    icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/activity.svg
-    tags: turi
-
-  - name: turi Web (operator UI, Railway)
-    url: https://chatbot-web-production-f931.up.railway.app/sign-in
-    icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/monitor.svg
-    tags: turi
-
-  - name: Render standby (api)
-    url: https://fsa-chatbot-sf68.onrender.com/health
-    icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/shield.svg
-    tags: turi
+  # Disabled during setup phase to silence alerts while we're still configuring.
+  # Re-enable by uncommenting once turi is stable.
+  #
+  # - name: turi API (api.turi.chat)
+  #   url: https://api.turi.chat/health
+  #   icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/activity.svg
+  #   tags: turi
+  #
+  # - name: turi Web (operator UI, Railway)
+  #   url: https://chatbot-web-production-f931.up.railway.app/sign-in
+  #   icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/monitor.svg
+  #   tags: turi
+  #
+  # - name: Render standby (api)
+  #   url: https://fsa-chatbot-sf68.onrender.com/health
+  #   icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/shield.svg
+  #   tags: turi
 
   # === External providers we depend on ===
   - name: ManyChat API
