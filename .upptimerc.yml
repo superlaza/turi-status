@@ -55,6 +55,27 @@ sites:
     icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/cloud.svg
     tags: provider
 
+  # === Status-page reachability probes ===
+  # These tell us "is the provider's status page itself up", which is the
+  # SECOND-best signal when their API is acting up. (The first-best is
+  # parsing summary.json — see .github/workflows/provider-status.yml.)
+  - name: Cloudflare Status Page
+    url: https://www.cloudflarestatus.com/api/v2/status.json
+    icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/alert-circle.svg
+    tags: statuspage
+  - name: OpenAI Status Page
+    url: https://status.openai.com/api/v2/status.json
+    icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/alert-circle.svg
+    tags: statuspage
+  - name: Clerk Status Page
+    url: https://status.clerk.com/api/v2/status.json
+    icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/alert-circle.svg
+    tags: statuspage
+  - name: Google Cloud Status Page
+    url: https://status.cloud.google.com/incidents.json
+    icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/alert-circle.svg
+    tags: statuspage
+
 # Check every 5 minutes by default (GitHub Actions cron min granularity is 5min anyway)
 delay: 5000
 

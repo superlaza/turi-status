@@ -1,0 +1,41 @@
+name: Provider Status Monitor
+
+on:
+  schedule:
+    # Every 10 min. GitHub Actions cron min granularity is 5min but
+    # actual scheduling is best-effort under load; 10 min keeps a wide buffer.
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  # Only one run at a time — prevents the git-push race we hit on uptime.yml.
+  group: provider-status
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Run provider check
+        env:
+          NOTIFICATION_DISCORD_WEBHOOK_URL: ${{ secrets.NOTIFICATION_DISCORD_WEBHOOK_URL }}
+        run: python3 scripts/check-provider-status.py
+
+      - name: Commit state changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add provider-status/state.json
+          if ! git diff --staged --quiet; then
+            git commit -m "provider-status: state update [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "no state change"
+          fi
