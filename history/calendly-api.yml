@@ -1,7 +1,7 @@
 url: https://api.calendly.com/users/me
-status: down
+status: up
 code: 401
-responseTime: 67
-lastUpdated: 2026-05-23T02:07:52.237Z
+responseTime: 92
+lastUpdated: 2026-05-23T02:10:49.885Z
 startTime: 2026-05-23T02:07:39.962Z
 generator: Upptime <https://github.com/upptime/upptime>
