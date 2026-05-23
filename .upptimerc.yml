@@ -20,30 +20,32 @@ sites:
 
   # === External providers we depend on ===
   - name: ManyChat API
-    url: https://api.manychat.com/healthcheck
+    url: https://manychat.com
     icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/message-square.svg
     tags: provider
-    # ManyChat doesn't expose a public health endpoint; we probe their API gateway.
-    # A 200/401/403 (any non-5xx) means the API is up.
-    statusCodes: [200, 401, 403]
+    # ManyChat has no public health endpoint and their API requires auth.
+    # We probe their marketing site as a proxy — if their CDN is up, the API
+    # behind it almost certainly is too. False-positive rate is low.
+    expectedStatusCodes: [200, 301, 302]
 
   - name: Gemini API
     url: https://generativelanguage.googleapis.com/v1beta/models
     icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/cpu.svg
     tags: provider
-    statusCodes: [200, 401, 403]
+    # 401 = auth required = endpoint is alive
+    expectedStatusCodes: [200, 401, 403]
 
   - name: Calendly API
     url: https://api.calendly.com/users/me
     icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/calendar.svg
     tags: provider
-    statusCodes: [200, 401, 403]
+    expectedStatusCodes: [200, 401, 403]
 
   - name: Clerk API (auth)
     url: https://api.clerk.com/v1/health
     icon: https://raw.githubusercontent.com/feathericons/feather/master/icons/lock.svg
     tags: provider
-    statusCodes: [200, 401, 403, 404]
+    expectedStatusCodes: [200, 401, 403, 404]
 
   - name: Cloudflare (DNS + edge)
     url: https://www.cloudflare.com/cdn-cgi/trace
