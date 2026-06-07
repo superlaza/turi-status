@@ -1,55 +1,55 @@
 {
   "Calendly": {
-    "checked_at": "2026-06-07T22:56:38.067934+00:00",
+    "checked_at": "2026-06-07T23:30:22.757851+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://www.calendlystatus.com/api/v2/summary.json"
   },
   "Clerk": {
-    "checked_at": "2026-06-07T22:56:37.701339+00:00",
+    "checked_at": "2026-06-07T23:30:22.328261+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://status.clerk.com/api/v2/summary.json"
   },
   "Cloudflare": {
-    "checked_at": "2026-06-07T22:56:37.258260+00:00",
-    "code": 200,
-    "description": "Minor Service Outage",
-    "indicator": "minor",
+    "checked_at": "2026-06-07T23:30:21.731290+00:00",
+    "code": 405,
+    "description": "status page unreachable (405)",
+    "indicator": "unknown",
     "url": "https://www.cloudflarestatus.com/api/v2/summary.json"
   },
   "GitHub": {
-    "checked_at": "2026-06-07T22:56:38.186270+00:00",
-    "code": 200,
-    "description": "All Systems Operational",
-    "indicator": "none",
+    "checked_at": "2026-06-07T23:30:22.874476+00:00",
+    "code": 405,
+    "description": "status page unreachable (405)",
+    "indicator": "unknown",
     "url": "https://www.githubstatus.com/api/v2/summary.json"
   },
   "Google Cloud": {
-    "checked_at": "2026-06-07T22:56:38.265145+00:00",
+    "checked_at": "2026-06-07T23:30:22.903847+00:00",
     "code": 200,
     "description": "All services normal",
     "indicator": "none",
     "url": "https://status.cloud.google.com/incidents.json"
   },
   "ManyChat": {
-    "checked_at": "2026-06-07T22:56:38.659631+00:00",
+    "checked_at": "2026-06-07T23:30:23.232826+00:00",
     "code": 200,
     "description": "Status page reachable",
     "indicator": "none",
     "url": "https://status.manychat.com"
   },
   "OpenAI": {
-    "checked_at": "2026-06-07T22:56:37.471281+00:00",
+    "checked_at": "2026-06-07T23:30:21.967455+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://status.openai.com/api/v2/summary.json"
   },
   "Railway": {
-    "checked_at": "2026-06-07T22:56:38.334410+00:00",
+    "checked_at": "2026-06-07T23:30:22.997519+00:00",
     "code": 200,
     "description": "Status page reachable",
     "indicator": "none",
