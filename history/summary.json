@@ -94,7 +94,7 @@
     "url": "https://www.cloudflarestatus.com/api/v2/status.json",
     "icon": "https://raw.githubusercontent.com/feathericons/feather/master/icons/alert-circle.svg",
     "slug": "cloudflare-status-page",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -102,7 +102,7 @@
     "uptimeYear": "100.00%",
     "time": 146,
     "timeDay": 120,
-    "timeWeek": 128,
+    "timeWeek": 130,
     "timeMonth": 146,
     "timeYear": 146,
     "dailyMinutesDown": {}
