@@ -1,55 +1,55 @@
 {
   "Calendly": {
-    "checked_at": "2026-06-20T23:19:13.971568+00:00",
+    "checked_at": "2026-06-20T23:48:37.385254+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://www.calendlystatus.com/api/v2/summary.json"
   },
   "Clerk": {
-    "checked_at": "2026-06-20T23:19:13.606971+00:00",
+    "checked_at": "2026-06-20T23:48:37.079162+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://status.clerk.com/api/v2/summary.json"
   },
   "Cloudflare": {
-    "checked_at": "2026-06-20T23:19:13.006294+00:00",
+    "checked_at": "2026-06-20T23:48:36.588007+00:00",
     "code": 200,
     "description": "Minor Service Outage",
     "indicator": "minor",
     "url": "https://www.cloudflarestatus.com/api/v2/summary.json"
   },
   "GitHub": {
-    "checked_at": "2026-06-20T23:19:14.272297+00:00",
+    "checked_at": "2026-06-20T23:48:37.483988+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://www.githubstatus.com/api/v2/summary.json"
   },
   "Google Cloud": {
-    "checked_at": "2026-06-20T23:19:14.436829+00:00",
+    "checked_at": "2026-06-20T23:48:37.511288+00:00",
     "code": 200,
     "description": "1 active: Network traffic to Google Cloud originating from Delhi, Chen",
     "indicator": "minor",
     "url": "https://status.cloud.google.com/incidents.json"
   },
   "ManyChat": {
-    "checked_at": "2026-06-20T23:19:14.984215+00:00",
+    "checked_at": "2026-06-20T23:48:37.873083+00:00",
     "code": 200,
     "description": "Status page reachable",
     "indicator": "none",
     "url": "https://status.manychat.com"
   },
   "OpenAI": {
-    "checked_at": "2026-06-20T23:19:13.217678+00:00",
+    "checked_at": "2026-06-20T23:48:36.766846+00:00",
     "code": 200,
     "description": "Partial System Degradation",
     "indicator": "minor",
     "url": "https://status.openai.com/api/v2/summary.json"
   },
   "Railway": {
-    "checked_at": "2026-06-20T23:19:14.722496+00:00",
+    "checked_at": "2026-06-20T23:48:37.650100+00:00",
     "code": 200,
     "description": "Status page reachable",
     "indicator": "none",
