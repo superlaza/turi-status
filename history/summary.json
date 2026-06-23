@@ -4,17 +4,17 @@
     "url": "https://manychat.com",
     "icon": "https://raw.githubusercontent.com/feathericons/feather/master/icons/message-square.svg",
     "slug": "many-chat-api",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 176,
-    "timeDay": 202,
-    "timeWeek": 158,
-    "timeMonth": 176,
-    "timeYear": 176,
+    "time": 178,
+    "timeDay": 227,
+    "timeWeek": 167,
+    "timeMonth": 175,
+    "timeYear": 178,
     "dailyMinutesDown": {}
   },
   {
@@ -31,7 +31,7 @@
     "time": 77,
     "timeDay": 44,
     "timeWeek": 77,
-    "timeMonth": 77,
+    "timeMonth": 76,
     "timeYear": 77,
     "dailyMinutesDown": {}
   },
@@ -49,7 +49,7 @@
     "time": 96,
     "timeDay": 35,
     "timeWeek": 84,
-    "timeMonth": 96,
+    "timeMonth": 95,
     "timeYear": 96,
     "dailyMinutesDown": {}
   },
@@ -67,7 +67,7 @@
     "time": 215,
     "timeDay": 189,
     "timeWeek": 296,
-    "timeMonth": 215,
+    "timeMonth": 213,
     "timeYear": 215,
     "dailyMinutesDown": {}
   },
@@ -85,7 +85,7 @@
     "time": 37,
     "timeDay": 18,
     "timeWeek": 26,
-    "timeMonth": 37,
+    "timeMonth": 36,
     "timeYear": 37,
     "dailyMinutesDown": {}
   },
@@ -102,8 +102,8 @@
     "uptimeYear": "100.00%",
     "time": 146,
     "timeDay": 223,
-    "timeWeek": 154,
-    "timeMonth": 146,
+    "timeWeek": 165,
+    "timeMonth": 145,
     "timeYear": 146,
     "dailyMinutesDown": {}
   },
@@ -121,7 +121,7 @@
     "time": 228,
     "timeDay": 180,
     "timeWeek": 200,
-    "timeMonth": 228,
+    "timeMonth": 229,
     "timeYear": 228,
     "dailyMinutesDown": {}
   },
@@ -139,7 +139,7 @@
     "time": 318,
     "timeDay": 310,
     "timeWeek": 346,
-    "timeMonth": 318,
+    "timeMonth": 320,
     "timeYear": 318,
     "dailyMinutesDown": {}
   },
