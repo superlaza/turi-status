@@ -1,55 +1,55 @@
 {
   "Calendly": {
-    "checked_at": "2026-07-15T04:36:07.903914+00:00",
+    "checked_at": "2026-07-15T05:34:36.622462+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://www.calendlystatus.com/api/v2/summary.json"
   },
   "Clerk": {
-    "checked_at": "2026-07-15T04:36:07.589846+00:00",
+    "checked_at": "2026-07-15T05:34:36.191352+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://status.clerk.com/api/v2/summary.json"
   },
   "Cloudflare": {
-    "checked_at": "2026-07-15T04:36:06.946430+00:00",
+    "checked_at": "2026-07-15T05:34:35.502276+00:00",
     "code": 200,
     "description": "Minor Service Outage",
     "indicator": "minor",
     "url": "https://www.cloudflarestatus.com/api/v2/summary.json"
   },
   "GitHub": {
-    "checked_at": "2026-07-15T04:36:07.963589+00:00",
+    "checked_at": "2026-07-15T05:34:36.773979+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://www.githubstatus.com/api/v2/summary.json"
   },
   "Google Cloud": {
-    "checked_at": "2026-07-15T04:36:08.038322+00:00",
+    "checked_at": "2026-07-15T05:34:36.899215+00:00",
     "code": 200,
-    "description": "1 active: Google Cloud VMware Engine (GCVE) Stretched Cluster customer",
-    "indicator": "minor",
+    "description": "All services normal",
+    "indicator": "none",
     "url": "https://status.cloud.google.com/incidents.json"
   },
   "ManyChat": {
-    "checked_at": "2026-07-15T04:36:08.323776+00:00",
+    "checked_at": "2026-07-15T05:34:37.415653+00:00",
     "code": 200,
     "description": "Status page reachable",
     "indicator": "none",
     "url": "https://status.manychat.com"
   },
   "OpenAI": {
-    "checked_at": "2026-07-15T04:36:07.179879+00:00",
+    "checked_at": "2026-07-15T05:34:35.811354+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://status.openai.com/api/v2/summary.json"
   },
   "Railway": {
-    "checked_at": "2026-07-15T04:36:08.089922+00:00",
+    "checked_at": "2026-07-15T05:34:37.034054+00:00",
     "code": 200,
     "description": "Status page reachable",
     "indicator": "none",
