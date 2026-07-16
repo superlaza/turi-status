@@ -1,55 +1,55 @@
 {
   "Calendly": {
-    "checked_at": "2026-07-16T11:56:09.909920+00:00",
+    "checked_at": "2026-07-16T12:43:12.569435+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://www.calendlystatus.com/api/v2/summary.json"
   },
   "Clerk": {
-    "checked_at": "2026-07-16T11:56:09.600267+00:00",
+    "checked_at": "2026-07-16T12:43:12.091051+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://status.clerk.com/api/v2/summary.json"
   },
   "Cloudflare": {
-    "checked_at": "2026-07-16T11:56:09.214431+00:00",
+    "checked_at": "2026-07-16T12:43:11.236720+00:00",
     "code": 200,
     "description": "Minor Service Outage",
     "indicator": "minor",
     "url": "https://www.cloudflarestatus.com/api/v2/summary.json"
   },
   "GitHub": {
-    "checked_at": "2026-07-16T11:56:09.997424+00:00",
+    "checked_at": "2026-07-16T12:43:12.870045+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://www.githubstatus.com/api/v2/summary.json"
   },
   "Google Cloud": {
-    "checked_at": "2026-07-16T11:56:10.021274+00:00",
+    "checked_at": "2026-07-16T12:43:12.985655+00:00",
     "code": 200,
-    "description": "1 active: Google Cloud VMware Engine (GCVE), Google Cloud NetApp Volum",
-    "indicator": "minor",
+    "description": "All services normal",
+    "indicator": "none",
     "url": "https://status.cloud.google.com/incidents.json"
   },
   "ManyChat": {
-    "checked_at": "2026-07-16T11:56:10.337279+00:00",
+    "checked_at": "2026-07-16T12:43:13.782085+00:00",
     "code": 200,
     "description": "Status page reachable",
     "indicator": "none",
     "url": "https://status.manychat.com"
   },
   "OpenAI": {
-    "checked_at": "2026-07-16T11:56:09.351871+00:00",
+    "checked_at": "2026-07-16T12:43:11.564276+00:00",
     "code": 200,
     "description": "Partial System Degradation",
     "indicator": "minor",
     "url": "https://status.openai.com/api/v2/summary.json"
   },
   "Railway": {
-    "checked_at": "2026-07-16T11:56:10.071098+00:00",
+    "checked_at": "2026-07-16T12:43:13.222622+00:00",
     "code": 200,
     "description": "Status page reachable",
     "indicator": "none",
