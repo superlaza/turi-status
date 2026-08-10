@@ -1,55 +1,55 @@
 {
   "Calendly": {
-    "checked_at": "2026-08-10T22:08:06.287209+00:00",
+    "checked_at": "2026-08-10T22:55:49.661638+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://www.calendlystatus.com/api/v2/summary.json"
   },
   "Clerk": {
-    "checked_at": "2026-08-10T22:08:05.919745+00:00",
+    "checked_at": "2026-08-10T22:55:49.292301+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://status.clerk.com/api/v2/summary.json"
   },
   "Cloudflare": {
-    "checked_at": "2026-08-10T22:08:05.263265+00:00",
+    "checked_at": "2026-08-10T22:55:48.500256+00:00",
     "code": 200,
     "description": "Minor Service Outage",
     "indicator": "minor",
     "url": "https://www.cloudflarestatus.com/api/v2/summary.json"
   },
   "GitHub": {
-    "checked_at": "2026-08-10T22:08:06.396546+00:00",
+    "checked_at": "2026-08-10T22:55:49.761535+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://www.githubstatus.com/api/v2/summary.json"
   },
   "Google Cloud": {
-    "checked_at": "2026-08-10T22:08:06.509607+00:00",
+    "checked_at": "2026-08-10T22:55:49.844388+00:00",
     "code": 200,
     "description": "All services normal",
     "indicator": "none",
     "url": "https://status.cloud.google.com/incidents.json"
   },
   "ManyChat": {
-    "checked_at": "2026-08-10T22:08:06.935511+00:00",
+    "checked_at": "2026-08-10T22:55:50.272752+00:00",
     "code": 200,
     "description": "Status page reachable",
     "indicator": "none",
     "url": "https://status.manychat.com"
   },
   "OpenAI": {
-    "checked_at": "2026-08-10T22:08:05.470247+00:00",
+    "checked_at": "2026-08-10T22:55:48.784142+00:00",
     "code": 200,
     "description": "Partial System Degradation",
     "indicator": "minor",
     "url": "https://status.openai.com/api/v2/summary.json"
   },
   "Railway": {
-    "checked_at": "2026-08-10T22:08:06.588209+00:00",
+    "checked_at": "2026-08-10T22:55:49.964190+00:00",
     "code": 200,
     "description": "Status page reachable",
     "indicator": "none",
