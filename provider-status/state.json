@@ -1,55 +1,55 @@
 {
   "Calendly": {
-    "checked_at": "2026-08-26T14:01:28.127895+00:00",
+    "checked_at": "2026-08-26T16:33:09.924520+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://www.calendlystatus.com/api/v2/summary.json"
   },
   "Clerk": {
-    "checked_at": "2026-08-26T14:01:27.870127+00:00",
+    "checked_at": "2026-08-26T16:33:09.642398+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://status.clerk.com/api/v2/summary.json"
   },
   "Cloudflare": {
-    "checked_at": "2026-08-26T14:01:27.085784+00:00",
+    "checked_at": "2026-08-26T16:33:09.038807+00:00",
     "code": 200,
     "description": "Minor Service Outage",
     "indicator": "minor",
     "url": "https://www.cloudflarestatus.com/api/v2/summary.json"
   },
   "GitHub": {
-    "checked_at": "2026-08-26T14:01:28.220893+00:00",
+    "checked_at": "2026-08-26T16:33:10.029565+00:00",
     "code": 200,
-    "description": "All Systems Operational",
-    "indicator": "none",
+    "description": "Partial System Outage",
+    "indicator": "major",
     "url": "https://www.githubstatus.com/api/v2/summary.json"
   },
   "Google Cloud": {
-    "checked_at": "2026-08-26T14:01:28.320318+00:00",
+    "checked_at": "2026-08-26T16:33:10.086411+00:00",
     "code": 200,
     "description": "All services normal",
     "indicator": "none",
     "url": "https://status.cloud.google.com/incidents.json"
   },
   "ManyChat": {
-    "checked_at": "2026-08-26T14:01:28.596118+00:00",
+    "checked_at": "2026-08-26T16:33:10.528491+00:00",
     "code": 200,
     "description": "Status page reachable",
     "indicator": "none",
     "url": "https://status.manychat.com"
   },
   "OpenAI": {
-    "checked_at": "2026-08-26T14:01:27.309604+00:00",
+    "checked_at": "2026-08-26T16:33:09.301212+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://status.openai.com/api/v2/summary.json"
   },
   "Railway": {
-    "checked_at": "2026-08-26T14:01:28.379528+00:00",
+    "checked_at": "2026-08-26T16:33:10.263404+00:00",
     "code": 200,
     "description": "Status page reachable",
     "indicator": "none",
