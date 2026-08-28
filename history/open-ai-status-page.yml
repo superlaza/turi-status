@@ -1,7 +1,7 @@
 url: https://status.openai.com/api/v2/status.json
 status: up
 code: 200
-responseTime: 259
-lastUpdated: 2026-08-27T04:22:18.073Z
+responseTime: 167
+lastUpdated: 2026-08-28T06:48:40.127Z
 startTime: 2026-05-23T03:54:40.147Z
 generator: Upptime <https://github.com/upptime/upptime>
