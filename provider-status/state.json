@@ -1,55 +1,55 @@
 {
   "Calendly": {
-    "checked_at": "2026-09-01T16:37:34.308945+00:00",
+    "checked_at": "2026-09-01T19:36:30.786294+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://www.calendlystatus.com/api/v2/summary.json"
   },
   "Clerk": {
-    "checked_at": "2026-09-01T16:37:33.986423+00:00",
+    "checked_at": "2026-09-01T19:36:30.459885+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://status.clerk.com/api/v2/summary.json"
   },
   "Cloudflare": {
-    "checked_at": "2026-09-01T16:37:33.479449+00:00",
+    "checked_at": "2026-09-01T19:36:29.904373+00:00",
     "code": 200,
     "description": "Minor Service Outage",
     "indicator": "minor",
     "url": "https://www.cloudflarestatus.com/api/v2/summary.json"
   },
   "GitHub": {
-    "checked_at": "2026-09-01T16:37:34.501598+00:00",
+    "checked_at": "2026-09-01T19:36:30.894457+00:00",
     "code": 200,
     "description": "All Systems Operational",
     "indicator": "none",
     "url": "https://www.githubstatus.com/api/v2/summary.json"
   },
   "Google Cloud": {
-    "checked_at": "2026-09-01T16:37:34.527711+00:00",
+    "checked_at": "2026-09-01T19:36:30.924401+00:00",
     "code": 200,
-    "description": "1 active: Multiple products in us-central1-b are experiencing network ",
-    "indicator": "minor",
+    "description": "All services normal",
+    "indicator": "none",
     "url": "https://status.cloud.google.com/incidents.json"
   },
   "ManyChat": {
-    "checked_at": "2026-09-01T16:37:34.845684+00:00",
+    "checked_at": "2026-09-01T19:36:31.145991+00:00",
     "code": 200,
     "description": "Status page reachable",
     "indicator": "none",
     "url": "https://status.manychat.com"
   },
   "OpenAI": {
-    "checked_at": "2026-09-01T16:37:33.644765+00:00",
+    "checked_at": "2026-09-01T19:36:30.122271+00:00",
     "code": 200,
-    "description": "Partial System Degradation",
-    "indicator": "minor",
+    "description": "All Systems Operational",
+    "indicator": "none",
     "url": "https://status.openai.com/api/v2/summary.json"
   },
   "Railway": {
-    "checked_at": "2026-09-01T16:37:34.589138+00:00",
+    "checked_at": "2026-09-01T19:36:30.984415+00:00",
     "code": 200,
     "description": "Status page reachable",
     "indicator": "none",
